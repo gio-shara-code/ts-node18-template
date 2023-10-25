@@ -1,1 +1,3 @@
-console.log('Hello World!')
+import * as config from './config'
+
+console.log(`This is my nickname: ${config.NICKNAME}`)
